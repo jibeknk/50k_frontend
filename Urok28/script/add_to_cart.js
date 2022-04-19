@@ -7,13 +7,21 @@
 
 // Конкретные задачи:
     // 1) Получить картинку
+        // Решение:
+        //     let img = document.getElementsByClassName("product_img");
+        //     img[0].currentSrc
+
     // 2) Получить заголовок
         // Решение:
         //     let title = document.getElementsByClassName("product_title");
         //     title[0].innerText
 
     // 3) Получить дополнительные параметры
+
     // 4) Получить цену
+        // Решение:
+        //     let price = document.getElementsByClassName("price");
+        //     price[0].innerText
 
 // Принцип получения данных следующий:
 // Получить данные можно с помощью:
@@ -43,3 +51,9 @@
 
 let title = document.getElementsByClassName("product_title");
 console.log(title[0].innerText);
+
+let img = document.getElementsByClassName("product_img");
+console.log(img[0].currentSrc);
+
+let price = document.getElementsByClassName("price");
+console.log(price[0].innerText);
